@@ -1,5 +1,6 @@
 {
   "name": "AMAN GUJJAR MUSIC",
+  "logo": "https://telegra.ph/file/221de501e2f547a6359dd.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/DARKAMAN6/AMAN-GUJJAR-MUSIC",
@@ -54,7 +55,7 @@
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "DARKAMANCHANNEL"
+      "value": "@DARKAMANCHANNEL"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
