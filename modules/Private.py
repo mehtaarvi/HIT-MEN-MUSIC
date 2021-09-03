@@ -6,7 +6,7 @@ import os
 import sys
 
 
-HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• ɪ'ᴍ 𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝• ᴀᴍᴀɴ━࿇ɢᴜᴊᴊᴀʀ࿇ᴍᴜs̶ɪᴄ♡︎ʙᴏᴛ
+HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• ɪ'ᴍ 𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋᴀᴍᴀɴ ɢᴜᴊᴊᴀʀ ᴍᴜs̶ɪᴄ
 ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴏᴘ ɢʀᴏᴜᴘ ᴅᴇᴠᴇʟᴏᴩᴇᴅ ʙʏ DARKAMAN\n• ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴠᴄ's\n\n• ʜɪᴛ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.</b>"
 HELP = """
 🎧 <b>I Can Play Musics On VoiceChats 🤪</b>
@@ -40,13 +40,13 @@ HELP = """
 async def start(client, message):
     buttons = [
        [
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ❀', url='https://t.me/DARKXV2BOT'),
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ɢʀᴏᴜᴘ❀', url='https://t.me/DARKAMANSUPPORT')
+                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/{}'),
+                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKAMANSUPPORT')
                 ],[
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ᴄʜᴀɴɴᴇʟ❀', url='https://t.me/DARKAMANCHANNEL'),
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ᴅᴀʀᴋᴀᴍᴀɴ❀', url='https://t.me/DARKAMAN')
+                InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://t.me/DARKAMANCHANNEL'),
+                InlineKeyboardButton('𓆩ᴅᴀʀᴋᴀᴍᴀɴ𓆪', url='https://t.me/DARKAMAN')
                 ],[
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻ᴄᴏᴍᴍᴀɴᴅs', url='https://telegra.ph/𖣔ᴀᴍᴀɴ-ɢᴜᴊᴊᴀʀ-ᴍᴜsɪᴄ-08-31'),
+                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='https://telegra.ph/𖣔ᴀᴍᴀɴ-ɢᴜᴊᴊᴀʀ-ᴍᴜsɪᴄ-08-31'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -58,13 +58,13 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢᴛᴏᴜᴘ❀', url='DARKXV2BOT'),
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ɢʀᴏᴜᴘ❀', url='https://t.me/DARKAMANSUPPORT')
+                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='{}'),
+                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKAMANSUPPORT')
                 ],[
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ᴄʜᴀɴɴᴇʟ❀', url='https://DARKAMANCHANNEL'),
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻❀ᴅᴀʀᴋᴀᴍᴀɴ❀', url='https://t.me/DARKAMAN')
+                InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://DARKAMANCHANNEL'),
+                InlineKeyboardButton('𓆩ᴅᴀʀᴋᴀᴍᴀɴ𓆪', url='https://t.me/DARKAMAN')
                 ],[
-                InlineKeyboardButton('𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ༆⃝•👻ᴄᴏᴍᴍᴀɴᴅs', url='https://telegra.ph/𖣔ᴀᴍᴀɴ-ɢᴜᴊᴊᴀʀ-ᴍᴜsɪᴄ-08-31'),
+                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='https://telegra.ph/𖣔ᴀᴍᴀɴ-ɢᴜᴊᴊᴀʀ-ᴍᴜsɪᴄ-08-31'),
        ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
