@@ -6,7 +6,7 @@ import os
 import sys
 
 
-HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• ɪ'ᴍ 𓆩ᴀᴍᴀɴ ɢᴜᴊᴊᴀʀ ᴍᴜs̶ɪᴄ𓆪 ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴏᴘ ɢʀᴏᴜᴘ ᴅᴇᴠᴇʟᴏᴩᴇᴅ ʙʏ @DARKAMAN\n• ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴠᴄ's\n\n• ʜɪᴛ /ʜᴇʟᴘ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.</b>"
+HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• ɪ'ᴍ 𓆩ᴀᴍᴀɴ ɢᴜᴊᴊᴀʀ ᴍᴜs̶ɪᴄ𓆪 ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴏᴘ ɢʀᴏᴜᴘ ᴅᴇᴠᴇʟᴏᴩᴇᴅ ʙʏ @DARKAMAN\n• ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴠᴄ's\n\n• ʜɪᴛ /help ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.</b>"
 HELP = """
 🎧 <b>I Can Play Musics On VoiceChats 🤪</b>
 
@@ -39,7 +39,7 @@ HELP = """
 async def start(client, message):
     buttons = [
        [
-                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/{}'),
+                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/{BOT_USERNAME}?startgroup=true'),
                 InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKAMANSUPPORT')
                 ],[
                 InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://t.me/DARKAMANCHANNEL'),
@@ -57,7 +57,7 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='{}'),
+                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/{BOT_USERNAME}?startgroup=true'),
                 InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKAMANSUPPORT')
                 ],[
                 InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://DARKAMANCHANNEL'),
