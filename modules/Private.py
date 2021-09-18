@@ -5,7 +5,7 @@ import signal
 import os
 import sys
 
-HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• ɪ'ᴍ  𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ𝘼𝙈𝘼𝙉 𝙂𝙐𝙅𝙅𝘼𝙍 𝙈𝙐𝙎𝙄𝘾꧂ ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴏᴘ ɢʀᴏᴜᴘ ᴅᴇᴠᴇʟᴏᴩᴇᴅ ʙʏ @DARKAMAN\n• ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴠᴄ's\n\n• ʜɪᴛ /help ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.</b>"
+HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• ɪ'ᴍ  █▬█ █ ▀█▀𝕄𝔼ℕ 𝕄𝕌𝕊𝕀ℂ ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴏᴘ ɢʀᴏᴜᴘ ᴅᴇᴠᴇʟᴏᴩᴇᴅ ʙʏ @VICTOR_2K21\n• ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴠᴄ's\n\n• ʜɪᴛ /help ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.</b>"
 HELP = """
 🎧 <b>I Can Play Musics On VoiceChats 🤪</b>
 
@@ -29,7 +29,7 @@ HELP = """
 • `/end` __Stops music play__
 • `/admincache` __Refresh list of admins with vc power__
 © Powered By 
-[ __ @DARKAMANSUPPORT || @DARKAMANCHANNEL__ ]
+[ __@mnvvcxz123456777 || @mnvvcxz123456777__ ]
 """
 
 
@@ -39,16 +39,16 @@ async def start(client, message):
     buttons = [
        [
                 InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKXV2BOT?startgroup=true'),
-                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKAMANSUPPORT')
+                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/mnvvcxz123456777')
                 ],[
                 InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://t.me/DARKAMANCHANNEL'),
-                InlineKeyboardButton('𓆩ᴅᴀʀᴋᴀᴍᴀɴ𓆪', url='https://t.me/DARKAMAN')
+                InlineKeyboardButton('𓆩ʜɪᴛ ᴍᴀɴ𓆪', url='https://t.me/VICTOR_2K21')
                 ],[
-                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='https://telegra.ph/𖣔ᴀᴍᴀɴ-ɢᴜᴊᴊᴀʀ-ᴍᴜsɪᴄ-08-31'),
+                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='http://telegra.ph/𝕄𝔼ℕ-09-18'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/221de501e2f547a6359dd.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/3bbc2fa668424bdb7c894.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await message.delete()
 
 
@@ -57,14 +57,14 @@ async def show_help(client, message):
     buttons = [
         [
                 InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKXV2BOT?startgroup=true'),
-                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/DARKAMANSUPPORT')
+                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/mnvvcxz123456777')
                 ],[
                 InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://DARKAMANCHANNEL'),
-                InlineKeyboardButton('𓆩ᴅᴀʀᴋᴀᴍᴀɴ𓆪', url='https://t.me/DARKAMAN')
+                InlineKeyboardButton('𓆩ʜɪᴛ ᴍᴀɴ𓆪', url='https://t.me/VICTOR_2K21')
                 ],[
-                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='https://telegra.ph/𖣔ᴀᴍᴀɴ-ɢᴜᴊᴊᴀʀ-ᴍᴜsɪᴄ-08-31'),
+                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='http://telegra.ph/𝕄𝔼ℕ-09-18'),
        ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/221de501e2f547a6359dd.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/3bbc2fa668424bdb7c894.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
