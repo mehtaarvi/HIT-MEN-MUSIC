@@ -1,9 +1,9 @@
 {
-  "name": "AMAN GUJJAR MUSIC",
-  "logo": "https://telegra.ph/file/221de501e2f547a6359dd.jpg",
+  "name": "HIT MEN MUSIC",
+  "logo": "https://telegra.ph/file/3bbc2fa668424bdb7c894.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/DARKAMAN6/AMAN-GUJJAR-MUSIC",
+  "repository": "https://github.com/DARKAMAN6/HIT-MEN-MUSIC",
   "stack": "container",
   "buildpacks": [
    {
@@ -31,12 +31,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "@DARKAMANSUPPORT"
+      "value": "@mnvvcxz123456777"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "@DARKAMANSUPPORT"
+      "value": "HIT MEN MUSIC"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -50,7 +50,7 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/ea02fa0ccb03e8205e182.png"
+      "value": "https://telegra.ph/file/3bbc2fa668424bdb7c894.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
@@ -77,7 +77,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value": "20"
     }
   }
 }
