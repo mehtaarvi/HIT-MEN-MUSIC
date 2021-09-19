@@ -46,7 +46,7 @@ async def start(client, message):
                 InlineKeyboardButton('👸🇪🅻🅸👸', url='https://t.me/Eliana_072'),
                 InlineKeyboardButton('👸🇦🆁🆅🅸👸', url='https://t.me/FOREVER_ANGEL_0')
                 ],[
-                InlineKeyboardButton('║█𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙█║', url='https://t.me/ARVI2_ROBOT?starstartgrouptgroup=true'),
+                InlineKeyboardButton('║█𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙█║', url='https://t.me/ARVI2_ROBOT?startgroup=true'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -64,7 +64,7 @@ async def show_help(client, message):
                 InlineKeyboardButton('👸🇪🅻🅸👸', url='https://t.me/Eliana_072'),
                 InlineKeyboardButton('👸🇦🆁🆅🅸👸', url='https://t.me/FOREVER_ANGEL_0')
                 ],[
-                InlineKeyboardButton('║█𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙█║', url='https://t.me/ARVI2_ROBOT?starstartgrouptgroup=true'),
+                InlineKeyboardButton('║█𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙█║', url='https://t.me/ARVI2_ROBOT?startgroup=true'),
        ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
