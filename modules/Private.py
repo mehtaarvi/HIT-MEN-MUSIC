@@ -68,5 +68,5 @@ async def show_help(client, message):
        ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/3bbc2fa668424bdb7c894.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/e6fd14982dad3f66563a4.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
