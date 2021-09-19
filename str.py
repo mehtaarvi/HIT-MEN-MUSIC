@@ -1,5 +1,5 @@
-#modified by @DARKAMAN5 AND DARKAMAN6 
-#copyright to © @DARKAMAN5 AND DARKAMAN6
+#modified by ARVI
+
 
 import asyncio
 
