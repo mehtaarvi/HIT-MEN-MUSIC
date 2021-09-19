@@ -5,7 +5,9 @@ import signal
 import os
 import sys
 
-HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• ɪ'ᴍ  █▬█ █ ▀█▀𝕄𝔼ℕ 𝕄𝕌𝕊𝕀ℂ ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ ᴏᴘ ɢʀᴏᴜᴘ ᴅᴇᴠᴇʟᴏᴩᴇᴅ ʙʏ @VICTOR_2K21\n• ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴠᴄ's\n\n• ʜɪᴛ /help ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.</b>"
+HOME_TEXT = "<b>ʜᴇʏ, [{}](tg://user?id={})\n\n• 𝙃𝙚𝙮 𝙖𝙢 𝙋𝘼𝙍𝙏 𝙤𝙛  𝑨𝑹𝑽𝑰 𝑴𝑼𝑺𝑰𝑪 𝑩𝑶𝑻.🇮 🇨𝙖𝙣  🇵𝙡𝙖𝙮  🇲𝙪𝙨𝙞𝙘 𝙄𝙣  🇾𝙤𝙪𝙧  🇬𝙧𝙤𝙪𝙥 ["𝙊𝙬𝙣𝙚𝙧 𝙌𝙪𝙚𝙚𝙣"]("https://t.me/FOREVER_ANGEL_0")• '𝙸 𝙲𝙰𝙽 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿'𝚜 𝚅𝙲 ʜɪᴛ s/n/n. ᎫϴᏆΝ  ϴᏔᎡ  ᏀᎡϴႮᏢ  ҒϴᎡ ᏟᎻᎪͲ {
+
+["𝗟𝗜𝗡𝗞"]("https://t.me/world_wide_chattt")s.</b>"
 HELP = """
 🎧 <b>I Can Play Musics On VoiceChats 🤪</b>
 
@@ -29,7 +31,7 @@ HELP = """
 • `/end` __Stops music play__
 • `/admincache` __Refresh list of admins with vc power__
 © Powered By 
-[ __@mnvvcxz123456777 || @mnvvcxz123456777__ ]
+[ __@world_wide_chattt || @world_wide_chattt__ ]
 """
 
 
