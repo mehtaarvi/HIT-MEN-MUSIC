@@ -40,13 +40,13 @@ HELP = """
 async def start(client, message):
     buttons = [
        [
-                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/HITmenMusicBot?startgroup=true'),
-                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/mnvvcxz123456777')
+                InlineKeyboardButton('⚡𝕮𝖍𝖆𝖓𝖓𝖊𝖑⚡', url='https://t.me/ABOUT_ARVI'),
+                InlineKeyboardButton('乂❤₲ⱤØɄ₱❤乂', url='https://t.me/world_wide_chattt')
                 ],[
-                InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://t.me/DARKAMANCHANNEL'),
-                InlineKeyboardButton('𓆩ʜɪᴛ ᴍᴀɴ𓆪', url='https://t.me/VICTOR_2K21')
+                InlineKeyboardButton('👸🇪🅻🅸👸', url='https://t.me/Eliana_072'),
+                InlineKeyboardButton('👸🇦🆁🆅🅸👸', url='https://t.me/FOREVER_ANGEL_0')
                 ],[
-                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='http://telegra.ph/𝕄𝔼ℕ-09-18'),
+                InlineKeyboardButton('║█𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙█║', url='https://t.me/ARVI2_ROBOT?starstartgrouptgroup=true'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -58,13 +58,13 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('𓆩ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ𓆪', url='https://t.me/HITmenMusicBot?startgroup=true'),
-                InlineKeyboardButton('𓆩ɢʀᴏᴜᴘ𓆪', url='https://t.me/mnvvcxz123456777')
+                InlineKeyboardButton('⚡𝕮𝖍𝖆𝖓𝖓𝖊𝖑⚡', url='https://t.me/ABOUT_ARVI'),
+                InlineKeyboardButton('乂❤₲ⱤØɄ₱❤乂', url='https://t.me/world_wide_chattt')
                 ],[
-                InlineKeyboardButton('𓆩ᴄʜᴀɴɴᴇʟ𓆪', url='https://DARKAMANCHANNEL'),
-                InlineKeyboardButton('𓆩ʜɪᴛ ᴍᴀɴ𓆪', url='https://t.me/VICTOR_2K21')
+                InlineKeyboardButton('👸🇪🅻🅸👸', url='https://t.me/Eliana_072'),
+                InlineKeyboardButton('👸🇦🆁🆅🅸👸', url='https://t.me/FOREVER_ANGEL_0')
                 ],[
-                InlineKeyboardButton('𓆩ᴄᴏᴍᴍᴀɴᴅs𓆪', url='http://telegra.ph/𝕄𝔼ℕ-09-18'),
+                InlineKeyboardButton('║█𝙰𝚍𝚍 𝚖𝚎 𝚝𝚘 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙█║', url='https://t.me/ARVI2_ROBOT?starstartgrouptgroup=true'),
        ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
