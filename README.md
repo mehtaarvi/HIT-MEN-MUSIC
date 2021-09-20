@@ -31,6 +31,10 @@
    Yes! you heard it right.
 /**
 ```
+## OWNERS
+<a href="https://t.me/eliana_072"><img src="https://img.shields.io/badge/AVNI%20GUPTA%3F-yes-green?&style=flat-square?&logo=telegram" width=380px></a></p>
+
+<a href="https://t.me/forever_angel_0"><img src="https://img.shields.io/badge/ARVI%20MEHTA%3F-yes-green?&style=flat-square?&logo=telegram" width=380px></a></p>
 
  ## Requirements 
 * Python 3.8 or Higher
