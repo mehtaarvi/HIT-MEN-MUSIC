@@ -38,7 +38,17 @@
 * Google Drive [API Keys](https://console.developers.google.com/)
 
    
-   
+##   How To Deploy 
+
+* With Heroku:
+
+<p align="center">
+
+   <a href = "https://heroku.com/deploy?template=https://github.com/mehtaarvi/HIT-MEN-MUSIC"><img src="https://telegra.ph/file/530082045e1163421d9c4.png" alt="Press to Takeoff" width="490px"></a>
+
+</p>
+
+<br>
 
  
   
