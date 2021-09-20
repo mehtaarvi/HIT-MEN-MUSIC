@@ -10,10 +10,10 @@
 <p align="center">
     <a href="https://t.me/world_wide_chattt"><img src="https://img.shields.io/badge/CHAT GROUP%20-ARVI--%F0%9D%91%BF-green?&logo=telegram&style=social" width=400px></a></p>
 
-Disclaimer
+# Disclaimer
 `
-/**
-   ⚠️Kang at your own risk⚠️          
+
+   **⚠️Kang at your own risk⚠️          
    Your Telegram account may get banned.
    I am not responsible for any improper use of this bot
    This bot is intended for the purpose of having fun with memes,
