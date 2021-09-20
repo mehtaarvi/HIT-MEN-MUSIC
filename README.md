@@ -33,7 +33,12 @@
 ```
 ## OWNERS
 
-
+DEPLOY TO HEROKU
+* With mehtaarvi:
+<p align="center">
+   <a href = "https://t.me/FOREVER_ANGEL_0"><img src="https://telegra.ph/file/c129125f295b933263460.jpg" alt="Press to Takeoff" width="490px"></a>
+</p>
+<br>
 
 
  ## Requirements 
