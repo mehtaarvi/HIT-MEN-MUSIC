@@ -7,4 +7,4 @@
 </p>
 # ABOUT ARVI
 <p align="center">
-    <a href="https://t.me/FOREVER_ANGEL_0"><img src="https://img.shields.io/badge/Support%20Group-ARVI--%F0%9D%91%BF-blue?&logo=telegram&style=social" width=400px></a></p>
+    <a href="https://t.me/world_wide_chattt"><img src="https://img.shields.io/badge/CHAT GROUP%20Group-ARVI--%F0%9D%91%BF-blue?&logo=telegram&style=social" width=400px></a></p>
