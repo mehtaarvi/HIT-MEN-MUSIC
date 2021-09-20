@@ -58,9 +58,10 @@ Fill `API_ID`, `API_HASH`, `DATABASE_URL`, `LOG_CHANNEL_ID`, `HEROKU_APP_NAME` a
 
 * Then fill Dual Mode vars : `OWNER_ID`, `BOT_TOKEN` and `HU_STRING_SESSION`
 
-STRING SESSION
+# STRING SESSION
 * With REPLIT:
 <p align="center">
    <a href = "https://repl.it/@SpEcHiDe/GenerateStringSession"><img src="https://telegra.ph/file/e49eb57ea36f724a6fc06.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
+                👆👆👆👆👆𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐅𝐎𝐑 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐈𝐒𝐒𝐈𝐎𝐍👆👆👆👆👆
